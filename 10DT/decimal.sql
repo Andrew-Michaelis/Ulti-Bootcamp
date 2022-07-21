@@ -2,7 +2,6 @@
 # DECIMAL(5, 2) can store max 5 digits with 2 digits beyond the decimal, eg. 999.99
 # maximum DECIMAL is DECIMAL(65, 30)
 
-# do once
 CREATE DATABASE numbers;
 USE numbers
 
