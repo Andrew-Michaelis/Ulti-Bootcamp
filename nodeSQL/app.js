@@ -11,7 +11,7 @@ var data = [];
 for(i=0; i<500; i++){
   data.push([
     faker.internet.email(),
-    faker.date.past()
+    faker.date.past(10)
   ]);
 }
 
