@@ -1,0 +1,16 @@
+Now that we have a good understanding of mysql, lets get it to work with something else
+In this course we are going to pair mysql with Node.
+PHP is historically paired with mysql, but this course will use Node instead
+so, with that said, how do we make them interact?
+the client will ask NodeJS their question, then NodeJS will ask the MySQL Database
+the MySQL database will respond to NodeJS who will deliver the response to client
+what language serves as intermediary doesn't matter for this level of learning
+"But What About PHP?" this course is using NodeJS, not PHP "8 min vid saying quit asking"
+
+Our First Project! JOIN US 'a cult mailing list application'
+
+USERS:
+email VARCHAR
+created_at DATETIME
+
+the first goal is to use NodeJS to create many random users
