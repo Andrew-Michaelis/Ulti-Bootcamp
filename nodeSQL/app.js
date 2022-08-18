@@ -21,5 +21,5 @@ connection.query(q, [data], function(err, result) {
   console.log(err);
   console.log(result);
 });
- 
+
 connection.end();

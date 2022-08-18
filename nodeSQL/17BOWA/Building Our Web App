@@ -1,0 +1,6 @@
+let's learn express.
+Express is a framework we'll be using to develop our app.
+Frameworks limit your freedom a small amount, but in return allow you to more quickly design web applications
+Express does A LOT, it sets up a server for you and a significant amount of the backend calculations.
+Express is a Sinatra-like framework which allows for significantly wider configuration options
+we are setting up all the node base stuff with npm init and installs with --save
