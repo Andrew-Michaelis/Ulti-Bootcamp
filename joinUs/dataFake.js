@@ -16,7 +16,6 @@ for(i=0; i<500; i++){
 }
 
 var q = 'INSERT INTO users (email, created_at) VALUES ?';
-
 connection.query(q, [data], function(err, result) {
   console.log(err);
   console.log(result);
